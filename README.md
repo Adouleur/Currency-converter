@@ -37,11 +37,11 @@ The Currency Exchange Project allows users to convert between different currenci
 
 ## Configuration
 
-1. I will provide you the API key
-2. Create an .env file in the root of the project:
+1. I will provide you with the API key
+2. Create a .env file in the root of the project:
 
     ```bash
-   REACT_APP_API_KEY=my-api-key
+   REACT_APP_API_KEY="my-api-key"
 
 Replace your-api-key with the actual API key obtained from me
 
