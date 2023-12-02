@@ -25,7 +25,7 @@ const CurrencyRow = ({
       <select
         onChange={onChangeCurrency}
         className="border border-solid ml-1.5 p-1 rounded-lg border-sky-500 w-3/12"
-        value={selectedCurrency === undefined ? "..." : selectedCurrency}
+        value={selectedCurrency}
       >
         {currencyOptions.map((option, index) => (
           <option key={index} value={option} className="relative bg-sky-100 ">
